@@ -18,26 +18,3 @@ class IntentHandler: INExtension {
     }
     
 }
-//
-//extension IntentHandler: FavouriteSmoothieHandling {
-//    
-//}
-
-extension IntentHandler: FavoriteSmoothieIntentHandling {
-    func provideSmoothieOptionsCollection(for intent: FavoriteSmoothieIntent, with completion: @escaping (INObjectCollection<SmoothieType>?, Error?) -> Void) {
-        let smoothies = Smoothie.all.map { smoothie in
-            SmoothieType(identifier: smoothie.id, display: smoothie.title)
-        }
-
-        let collection = INObjectCollection(items: smoothies)
-        completion(collection, nil)
-    }
-    
-    func defaultSmoothie(for intent: FavoriteSmoothieIntent) -> SmoothieType? {
-        guard let smoothie = Smoothie.all.first else {
-            return nil
-        }
-
-        return SmoothieType(identifier: smoothie.id, display: smoothie.title)
-    }
-}

@@ -11,21 +11,33 @@
 		5828EDCC25CE880A001296A2 /* FavoriteSmoothieWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5828EDCB25CE880A001296A2 /* FavoriteSmoothieWidget.swift */; };
 		5828EDCD25CE880A001296A2 /* FavoriteSmoothieWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5828EDCB25CE880A001296A2 /* FavoriteSmoothieWidget.swift */; };
 		5828EDE025CE8B19001296A2 /* FavoriteSmoothieWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5828EDCB25CE880A001296A2 /* FavoriteSmoothieWidget.swift */; };
-		584C180525CE818100349162 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584C180425CE818100349162 /* Intents.framework */; };
-		584C180825CE818100349162 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C180725CE818100349162 /* IntentHandler.swift */; };
-		584C180C25CE818100349162 /* macOSIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 584C180325CE818100349162 /* macOSIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		584C181725CE81AF00349162 /* FrutaIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */; };
-		584C181825CE81AF00349162 /* FrutaIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */; };
-		584C185025CE83A700349162 /* Smoothie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E056715C249690200018307A /* Smoothie.swift */; };
-		584C186E25CE848300349162 /* NutritionFacts in Frameworks */ = {isa = PBXBuildFile; productRef = 584C186D25CE848300349162 /* NutritionFacts */; };
-		584C188125CE84C700349162 /* MeasuredIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671A4249691320018307A /* MeasuredIngredient.swift */; };
-		584C188825CE84CB00349162 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671AA2496914A0018307A /* Ingredient.swift */; };
-		584C188F25CE84D300349162 /* Ingredient+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B6249691720018307A /* Ingredient+SwiftUI.swift */; };
-		584C189C25CE84F400349162 /* Ingredient+NutritionFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B02496915D0018307A /* Ingredient+NutritionFacts.swift */; };
 		584C18BB25CE85AE00349162 /* FrutaIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */; };
 		584C18C225CE85AE00349162 /* FrutaIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */; };
 		584C18C325CE85AF00349162 /* FrutaIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */; };
 		584C18C425CE85B000349162 /* FrutaIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */; };
+		5869851325CED6B300ADAD9C /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584C180425CE818100349162 /* Intents.framework */; };
+		5869851A25CED6B300ADAD9C /* iOSIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5869851225CED6B300ADAD9C /* iOSIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5869853A25CED6CB00ADAD9C /* FrutaIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */; };
+		5869855C25CED81500ADAD9C /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C180725CE818100349162 /* IntentHandler.swift */; };
+		5869856325CED83800ADAD9C /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C180725CE818100349162 /* IntentHandler.swift */; };
+		5869856A25CED83A00ADAD9C /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C180725CE818100349162 /* IntentHandler.swift */; };
+		5869859025CED9DD00ADAD9C /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C180725CE818100349162 /* IntentHandler.swift */; };
+		5869859725CED9ED00ADAD9C /* Smoothie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E056715C249690200018307A /* Smoothie.swift */; };
+		5869859E25CED9F600ADAD9C /* MeasuredIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671A4249691320018307A /* MeasuredIngredient.swift */; };
+		586985A525CED9F900ADAD9C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671AA2496914A0018307A /* Ingredient.swift */; };
+		586985AC25CEDA0300ADAD9C /* Ingredient+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B6249691720018307A /* Ingredient+SwiftUI.swift */; };
+		586985B325CEDA0D00ADAD9C /* Ingredient+NutritionFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B02496915D0018307A /* Ingredient+NutritionFacts.swift */; };
+		586985C125CEDA2000ADAD9C /* NutritionFacts in Frameworks */ = {isa = PBXBuildFile; productRef = 586985C025CEDA2000ADAD9C /* NutritionFacts */; };
+		586985C725CEDA4D00ADAD9C /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584C180425CE818100349162 /* Intents.framework */; };
+		586985CA25CEDA4D00ADAD9C /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586985C925CEDA4D00ADAD9C /* IntentHandler.swift */; };
+		586985CE25CEDA4D00ADAD9C /* macOSIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 586985C625CEDA4D00ADAD9C /* macOSIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		586985D925CEDA5900ADAD9C /* MeasuredIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671A4249691320018307A /* MeasuredIngredient.swift */; };
+		586985DA25CEDA5C00ADAD9C /* Ingredient+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B6249691720018307A /* Ingredient+SwiftUI.swift */; };
+		586985E225CEDA5F00ADAD9C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671AA2496914A0018307A /* Ingredient.swift */; };
+		586985EA25CEDA6700ADAD9C /* Smoothie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E056715C249690200018307A /* Smoothie.swift */; };
+		586985F325CEDA6F00ADAD9C /* NutritionFacts in Frameworks */ = {isa = PBXBuildFile; productRef = 586985F225CEDA6F00ADAD9C /* NutritionFacts */; };
+		586985FB25CEDAC300ADAD9C /* Ingredient+NutritionFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B02496915D0018307A /* Ingredient+NutritionFacts.swift */; };
 		61A099DA24BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A099D924BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift */; };
 		61A099DB24BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A099D924BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift */; };
 		61A099DC24BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A099D924BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift */; };
@@ -264,11 +276,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		584C180A25CE818100349162 /* PBXContainerItemProxy */ = {
+		5869851825CED6B300ADAD9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E0D7129824967CC800173A38 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 584C180225CE818100349162;
+			remoteGlobalIDString = 5869851125CED6B300ADAD9C;
+			remoteInfo = iOSIntents;
+		};
+		586985CC25CEDA4D00ADAD9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0D7129824967CC800173A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586985C525CEDA4D00ADAD9C;
 			remoteInfo = macOSIntent;
 		};
 		E0D712E02496805E00173A38 /* PBXContainerItemProxy */ = {
@@ -312,6 +331,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				5869851A25CED6B300ADAD9C /* iOSIntents.appex in Embed App Extensions */,
 				E0D713B1249683BA00173A38 /* Fruta iOS Widgets.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -323,7 +343,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				584C180C25CE818100349162 /* macOSIntent.appex in Embed App Extensions */,
+				586985CE25CEDA4D00ADAD9C /* macOSIntent.appex in Embed App Extensions */,
 				E0D713DB2496844600173A38 /* Fruta macOS Widgets.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -334,11 +354,16 @@
 /* Begin PBXFileReference section */
 		33BFC6A1DCA101BFABE069E5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		5828EDCB25CE880A001296A2 /* FavoriteSmoothieWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSmoothieWidget.swift; sourceTree = "<group>"; };
-		584C180325CE818100349162 /* macOSIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = macOSIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		584C180425CE818100349162 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		584C180725CE818100349162 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		584C180925CE818100349162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = FrutaIntents.intentdefinition; sourceTree = "<group>"; };
+		5869851225CED6B300ADAD9C /* iOSIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iOSIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5869851725CED6B300ADAD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5869854925CED6E700ADAD9C /* iOSIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSIntents.entitlements; sourceTree = "<group>"; };
+		586985C625CEDA4D00ADAD9C /* macOSIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = macOSIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		586985C925CEDA4D00ADAD9C /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		586985CB25CEDA4D00ADAD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61A099D924BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothieFavoriteButton.swift; sourceTree = "<group>"; };
 		61D0030624B3E8BC004CC4FC /* FrutaAppClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutaAppClip.swift; sourceTree = "<group>"; };
 		61F36D9A2496F40A00E7AA4D /* SmoothieLab.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SmoothieLab.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -414,12 +439,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		584C180025CE818100349162 /* Frameworks */ = {
+		5869850F25CED6B300ADAD9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				584C180525CE818100349162 /* Intents.framework in Frameworks */,
-				584C186E25CE848300349162 /* NutritionFacts in Frameworks */,
+				5869851325CED6B300ADAD9C /* Intents.framework in Frameworks */,
+				586985C125CEDA2000ADAD9C /* NutritionFacts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586985C325CEDA4D00ADAD9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586985C725CEDA4D00ADAD9C /* Intents.framework in Frameworks */,
+				586985F325CEDA6F00ADAD9C /* NutritionFacts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,9 +517,25 @@
 		584C180625CE818100349162 /* macOSIntent */ = {
 			isa = PBXGroup;
 			children = (
-				584C180725CE818100349162 /* IntentHandler.swift */,
 				584C180925CE818100349162 /* Info.plist */,
-				584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */,
+			);
+			path = macOSIntent;
+			sourceTree = "<group>";
+		};
+		5869851425CED6B300ADAD9C /* iOSIntents */ = {
+			isa = PBXGroup;
+			children = (
+				5869854925CED6E700ADAD9C /* iOSIntents.entitlements */,
+				5869851725CED6B300ADAD9C /* Info.plist */,
+			);
+			path = iOSIntents;
+			sourceTree = "<group>";
+		};
+		586985C825CEDA4D00ADAD9C /* macOSIntent */ = {
+			isa = PBXGroup;
+			children = (
+				586985C925CEDA4D00ADAD9C /* IntentHandler.swift */,
+				586985CB25CEDA4D00ADAD9C /* Info.plist */,
 			);
 			path = macOSIntent;
 			sourceTree = "<group>";
@@ -527,6 +577,8 @@
 				E030D9842496968300D2E087 /* Packages */,
 				61F36D992496F3EF00E7AA4D /* Playgrounds */,
 				584C180625CE818100349162 /* macOSIntent */,
+				5869851425CED6B300ADAD9C /* iOSIntents */,
+				586985C825CEDA4D00ADAD9C /* macOSIntent */,
 				E0D713A4249683BA00173A38 /* Frameworks */,
 				E0D712A524967CC900173A38 /* Products */,
 				CC6C0F7AEF2D0CBC2E3EEFD6 /* Configuration */,
@@ -560,7 +612,8 @@
 				E0D712D32496805D00173A38 /* Fruta iOS Clip.app */,
 				E0D713A3249683BA00173A38 /* Fruta iOS Widgets.appex */,
 				E0D713CF2496844400173A38 /* Fruta macOS Widgets.appex */,
-				584C180325CE818100349162 /* macOSIntent.appex */,
+				5869851225CED6B300ADAD9C /* iOSIntents.appex */,
+				586985C625CEDA4D00ADAD9C /* macOSIntent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -686,6 +739,8 @@
 		E0D712CC24967FA800173A38 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				584C180725CE818100349162 /* IntentHandler.swift */,
+				584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */,
 				E030D9472496931900D2E087 /* FrutaWidgets.swift */,
 				5828EDCB25CE880A001296A2 /* FavoriteSmoothieWidget.swift */,
 				E030D94A2496932B00D2E087 /* RewardsCardWidget.swift */,
@@ -735,13 +790,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		584C180225CE818100349162 /* macOSIntent */ = {
+		5869851125CED6B300ADAD9C /* iOSIntents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 584C180F25CE818100349162 /* Build configuration list for PBXNativeTarget "macOSIntent" */;
+			buildConfigurationList = 5869851B25CED6B300ADAD9C /* Build configuration list for PBXNativeTarget "iOSIntents" */;
 			buildPhases = (
-				584C17FF25CE818100349162 /* Sources */,
-				584C180025CE818100349162 /* Frameworks */,
-				584C180125CE818100349162 /* Resources */,
+				5869850E25CED6B300ADAD9C /* Sources */,
+				5869850F25CED6B300ADAD9C /* Frameworks */,
+				5869851025CED6B300ADAD9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSIntents;
+			packageProductDependencies = (
+				586985C025CEDA2000ADAD9C /* NutritionFacts */,
+			);
+			productName = iOSIntents;
+			productReference = 5869851225CED6B300ADAD9C /* iOSIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		586985C525CEDA4D00ADAD9C /* macOSIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586985CF25CEDA4D00ADAD9C /* Build configuration list for PBXNativeTarget "macOSIntent" */;
+			buildPhases = (
+				586985C225CEDA4D00ADAD9C /* Sources */,
+				586985C325CEDA4D00ADAD9C /* Frameworks */,
+				586985C425CEDA4D00ADAD9C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -749,10 +824,10 @@
 			);
 			name = macOSIntent;
 			packageProductDependencies = (
-				584C186D25CE848300349162 /* NutritionFacts */,
+				586985F225CEDA6F00ADAD9C /* NutritionFacts */,
 			);
 			productName = macOSIntent;
-			productReference = 584C180325CE818100349162 /* macOSIntent.appex */;
+			productReference = 586985C625CEDA4D00ADAD9C /* macOSIntent.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		E0D712A324967CC900173A38 /* Fruta iOS */ = {
@@ -770,6 +845,7 @@
 			dependencies = (
 				E0D712E12496805E00173A38 /* PBXTargetDependency */,
 				E0D713B0249683BA00173A38 /* PBXTargetDependency */,
+				5869851925CED6B300ADAD9C /* PBXTargetDependency */,
 			);
 			name = "Fruta iOS";
 			packageProductDependencies = (
@@ -793,7 +869,7 @@
 			dependencies = (
 				E0FED4492496AB76005D3995 /* PBXTargetDependency */,
 				E0D713DA2496844600173A38 /* PBXTargetDependency */,
-				584C180B25CE818100349162 /* PBXTargetDependency */,
+				586985CD25CEDA4D00ADAD9C /* PBXTargetDependency */,
 			);
 			name = "Fruta macOS";
 			packageProductDependencies = (
@@ -874,7 +950,10 @@
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					584C180225CE818100349162 = {
+					5869851125CED6B300ADAD9C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					586985C525CEDA4D00ADAD9C = {
 						CreatedOnToolsVersion = 12.4;
 					};
 					E0D712A324967CC900173A38 = {
@@ -914,13 +993,21 @@
 				E0D712AB24967CC900173A38 /* Fruta macOS */,
 				E0D713A2249683BA00173A38 /* Fruta iOS Widgets */,
 				E0D713CE2496844400173A38 /* Fruta macOS Widgets */,
-				584C180225CE818100349162 /* macOSIntent */,
+				5869851125CED6B300ADAD9C /* iOSIntents */,
+				586985C525CEDA4D00ADAD9C /* macOSIntent */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		584C180125CE818100349162 /* Resources */ = {
+		5869851025CED6B300ADAD9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586985C425CEDA4D00ADAD9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -970,17 +1057,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		584C17FF25CE818100349162 /* Sources */ = {
+		5869850E25CED6B300ADAD9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				584C189C25CE84F400349162 /* Ingredient+NutritionFacts.swift in Sources */,
-				584C185025CE83A700349162 /* Smoothie.swift in Sources */,
-				584C180825CE818100349162 /* IntentHandler.swift in Sources */,
-				584C188F25CE84D300349162 /* Ingredient+SwiftUI.swift in Sources */,
-				584C188825CE84CB00349162 /* Ingredient.swift in Sources */,
-				584C188125CE84C700349162 /* MeasuredIngredient.swift in Sources */,
-				584C181825CE81AF00349162 /* FrutaIntents.intentdefinition in Sources */,
+				586985B325CEDA0D00ADAD9C /* Ingredient+NutritionFacts.swift in Sources */,
+				5869859025CED9DD00ADAD9C /* IntentHandler.swift in Sources */,
+				5869859725CED9ED00ADAD9C /* Smoothie.swift in Sources */,
+				586985AC25CEDA0300ADAD9C /* Ingredient+SwiftUI.swift in Sources */,
+				586985A525CED9F900ADAD9C /* Ingredient.swift in Sources */,
+				5869859E25CED9F600ADAD9C /* MeasuredIngredient.swift in Sources */,
+				5869853A25CED6CB00ADAD9C /* FrutaIntents.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586985C225CEDA4D00ADAD9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586985E225CEDA5F00ADAD9C /* Ingredient.swift in Sources */,
+				586985D925CEDA5900ADAD9C /* MeasuredIngredient.swift in Sources */,
+				586985CA25CEDA4D00ADAD9C /* IntentHandler.swift in Sources */,
+				586985FB25CEDAC300ADAD9C /* Ingredient+NutritionFacts.swift in Sources */,
+				586985EA25CEDA6700ADAD9C /* Smoothie.swift in Sources */,
+				586985DA25CEDA5C00ADAD9C /* Ingredient+SwiftUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -989,6 +1089,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E091DD4F2496868B002DB402 /* PaymentButton.swift in Sources */,
+				5869856325CED83800ADAD9C /* IntentHandler.swift in Sources */,
 				E0D712BF24967E4800173A38 /* VisualEffectBlur.swift in Sources */,
 				E05671AB2496914A0018307A /* Ingredient.swift in Sources */,
 				E0567163249690430018307A /* Smoothie+SwiftUI.swift in Sources */,
@@ -1040,6 +1141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0567189249690C70018307A /* SmoothieRow.swift in Sources */,
+				5869856A25CED83A00ADAD9C /* IntentHandler.swift in Sources */,
 				E05671CB2496920C0018307A /* FlipView.swift in Sources */,
 				E056715F249690200018307A /* Smoothie.swift in Sources */,
 				61FB2FE2249948EB00E39B64 /* RedeemSmoothieButton.swift in Sources */,
@@ -1187,6 +1289,7 @@
 				E056718A249690C70018307A /* SmoothieRow.swift in Sources */,
 				E05671F0249692970018307A /* AnimatableFontModifier.swift in Sources */,
 				E056717E2496909B0018307A /* SmoothieHeaderView.swift in Sources */,
+				5869855C25CED81500ADAD9C /* IntentHandler.swift in Sources */,
 				584C18BB25CE85AE00349162 /* FrutaIntents.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1248,10 +1351,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		584C180B25CE818100349162 /* PBXTargetDependency */ = {
+		5869851925CED6B300ADAD9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 584C180225CE818100349162 /* macOSIntent */;
-			targetProxy = 584C180A25CE818100349162 /* PBXContainerItemProxy */;
+			target = 5869851125CED6B300ADAD9C /* iOSIntents */;
+			targetProxy = 5869851825CED6B300ADAD9C /* PBXContainerItemProxy */;
+		};
+		586985CD25CEDA4D00ADAD9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 586985C525CEDA4D00ADAD9C /* macOSIntent */;
+			targetProxy = 586985CC25CEDA4D00ADAD9C /* PBXContainerItemProxy */;
 		};
 		E0D712E12496805E00173A38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1274,7 +1382,56 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		584C180D25CE818100349162 /* Debug */ = {
+		5869851C25CED6B300ADAD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iOSIntents/iOSIntents.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iOSIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.fruta.iOSIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5869851D25CED6B300ADAD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iOSIntents/iOSIntents.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iOSIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.fruta.iOSIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		586985D025CEDA4D00ADAD9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1296,7 +1453,7 @@
 			};
 			name = Debug;
 		};
-		584C180E25CE818100349162 /* Release */ = {
+		586985D125CEDA4D00ADAD9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1446,7 +1603,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1473,7 +1630,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1611,7 +1768,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS Widgets/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1637,7 +1794,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS Widgets/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1711,11 +1868,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		584C180F25CE818100349162 /* Build configuration list for PBXNativeTarget "macOSIntent" */ = {
+		5869851B25CED6B300ADAD9C /* Build configuration list for PBXNativeTarget "iOSIntents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				584C180D25CE818100349162 /* Debug */,
-				584C180E25CE818100349162 /* Release */,
+				5869851C25CED6B300ADAD9C /* Debug */,
+				5869851D25CED6B300ADAD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586985CF25CEDA4D00ADAD9C /* Build configuration list for PBXNativeTarget "macOSIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586985D025CEDA4D00ADAD9C /* Debug */,
+				586985D125CEDA4D00ADAD9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1777,7 +1943,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		584C186D25CE848300349162 /* NutritionFacts */ = {
+		586985C025CEDA2000ADAD9C /* NutritionFacts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NutritionFacts;
+		};
+		586985F225CEDA6F00ADAD9C /* NutritionFacts */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NutritionFacts;
 		};
