@@ -16,21 +16,19 @@ class IntentHandler: INExtension {
         
         return self
     }
+        
     
-    func provideSmoothieOptions(for intent: FavoriteSmoothieIntent, with completion: @escaping ([SmoothieType]?, Error?) -> Void) {
-        print("Here")
-        let smoothies = Smoothie.all.map { smoothie in
-            SmoothieType(identifier: smoothie.id, display: smoothie.title)
-        }
-        completion(smoothies, nil)
-    }
-    
-    func handle(intent: FavoriteSmoothieIntent, completion: @escaping (FavoriteSmoothieIntentResponse) -> Void) {
-        print("Intent Robo:", intent.smoothie?.identifier ?? "Noo")
-    }
 }
 
 extension IntentHandler: FavoriteSmoothieIntentHandling {
+    func resolveSmoothie(for intent: FavoriteSmoothieIntent, with completion: @escaping (SmoothieTypeResolutionResult) -> Void) {
+        let type = SmoothieType(identifier: "", display: "sdf")
+
+        completion(
+            .success(with: type)
+        )
+    }
+  
     func provideSmoothieOptionsCollection(for intent: FavoriteSmoothieIntent, with completion: @escaping (INObjectCollection<SmoothieType>?, Error?) -> Void) {
         print("Here")
 

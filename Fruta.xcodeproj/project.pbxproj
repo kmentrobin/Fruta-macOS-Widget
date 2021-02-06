@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581D77D825CEDD5100213F94 /* macOSNewIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 581D77D125CEDD5100213F94 /* macOSNewIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		581D782825CEDEFA00213F94 /* FrutaIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */; };
+		581D783125CEDEFD00213F94 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C180725CE818100349162 /* IntentHandler.swift */; };
+		581D783A25CEDF0600213F94 /* Smoothie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E056715C249690200018307A /* Smoothie.swift */; };
+		581D784325CEDF0A00213F94 /* MeasuredIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671A4249691320018307A /* MeasuredIngredient.swift */; };
+		581D784C25CEDF0F00213F94 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671AA2496914A0018307A /* Ingredient.swift */; };
+		581D785525CEDF2400213F94 /* Ingredient+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B6249691720018307A /* Ingredient+SwiftUI.swift */; };
+		581D785E25CEDF3200213F94 /* Ingredient+NutritionFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B02496915D0018307A /* Ingredient+NutritionFacts.swift */; };
+		581D786825CEDF5E00213F94 /* NutritionFacts in Frameworks */ = {isa = PBXBuildFile; productRef = 581D786725CEDF5E00213F94 /* NutritionFacts */; };
 		5828EDC325CE8765001296A2 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C180725CE818100349162 /* IntentHandler.swift */; };
 		5828EDCC25CE880A001296A2 /* FavoriteSmoothieWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5828EDCB25CE880A001296A2 /* FavoriteSmoothieWidget.swift */; };
 		5828EDCD25CE880A001296A2 /* FavoriteSmoothieWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5828EDCB25CE880A001296A2 /* FavoriteSmoothieWidget.swift */; };
@@ -29,15 +38,6 @@
 		586985AC25CEDA0300ADAD9C /* Ingredient+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B6249691720018307A /* Ingredient+SwiftUI.swift */; };
 		586985B325CEDA0D00ADAD9C /* Ingredient+NutritionFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B02496915D0018307A /* Ingredient+NutritionFacts.swift */; };
 		586985C125CEDA2000ADAD9C /* NutritionFacts in Frameworks */ = {isa = PBXBuildFile; productRef = 586985C025CEDA2000ADAD9C /* NutritionFacts */; };
-		586985C725CEDA4D00ADAD9C /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584C180425CE818100349162 /* Intents.framework */; };
-		586985CA25CEDA4D00ADAD9C /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586985C925CEDA4D00ADAD9C /* IntentHandler.swift */; };
-		586985CE25CEDA4D00ADAD9C /* macOSIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 586985C625CEDA4D00ADAD9C /* macOSIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		586985D925CEDA5900ADAD9C /* MeasuredIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671A4249691320018307A /* MeasuredIngredient.swift */; };
-		586985DA25CEDA5C00ADAD9C /* Ingredient+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B6249691720018307A /* Ingredient+SwiftUI.swift */; };
-		586985E225CEDA5F00ADAD9C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671AA2496914A0018307A /* Ingredient.swift */; };
-		586985EA25CEDA6700ADAD9C /* Smoothie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E056715C249690200018307A /* Smoothie.swift */; };
-		586985F325CEDA6F00ADAD9C /* NutritionFacts in Frameworks */ = {isa = PBXBuildFile; productRef = 586985F225CEDA6F00ADAD9C /* NutritionFacts */; };
-		586985FB25CEDAC300ADAD9C /* Ingredient+NutritionFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671B02496915D0018307A /* Ingredient+NutritionFacts.swift */; };
 		61A099DA24BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A099D924BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift */; };
 		61A099DB24BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A099D924BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift */; };
 		61A099DC24BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A099D924BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift */; };
@@ -276,19 +276,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		581D77D625CEDD5100213F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0D7129824967CC800173A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581D77D025CEDD5100213F94;
+			remoteInfo = macOSNewIntent;
+		};
 		5869851825CED6B300ADAD9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E0D7129824967CC800173A38 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5869851125CED6B300ADAD9C;
 			remoteInfo = iOSIntents;
-		};
-		586985CC25CEDA4D00ADAD9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E0D7129824967CC800173A38 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 586985C525CEDA4D00ADAD9C;
-			remoteInfo = macOSIntent;
 		};
 		E0D712E02496805E00173A38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -343,7 +343,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				586985CE25CEDA4D00ADAD9C /* macOSIntent.appex in Embed App Extensions */,
+				581D77D825CEDD5100213F94 /* macOSNewIntent.appex in Embed App Extensions */,
 				E0D713DB2496844600173A38 /* Fruta macOS Widgets.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -353,17 +353,16 @@
 
 /* Begin PBXFileReference section */
 		33BFC6A1DCA101BFABE069E5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		581D77D125CEDD5100213F94 /* macOSNewIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = macOSNewIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		581D77D525CEDD5100213F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581D788525CEE07900213F94 /* macOSNewIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOSNewIntent.entitlements; sourceTree = "<group>"; };
 		5828EDCB25CE880A001296A2 /* FavoriteSmoothieWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSmoothieWidget.swift; sourceTree = "<group>"; };
 		584C180425CE818100349162 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		584C180725CE818100349162 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
-		584C180925CE818100349162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		584C181625CE81AF00349162 /* FrutaIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = FrutaIntents.intentdefinition; sourceTree = "<group>"; };
 		5869851225CED6B300ADAD9C /* iOSIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iOSIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5869851725CED6B300ADAD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5869854925CED6E700ADAD9C /* iOSIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSIntents.entitlements; sourceTree = "<group>"; };
-		586985C625CEDA4D00ADAD9C /* macOSIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = macOSIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		586985C925CEDA4D00ADAD9C /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
-		586985CB25CEDA4D00ADAD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61A099D924BFDC3E0063A2B2 /* SmoothieFavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothieFavoriteButton.swift; sourceTree = "<group>"; };
 		61D0030624B3E8BC004CC4FC /* FrutaAppClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutaAppClip.swift; sourceTree = "<group>"; };
 		61F36D9A2496F40A00E7AA4D /* SmoothieLab.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SmoothieLab.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -439,21 +438,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		581D77CE25CEDD5100213F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581D786825CEDF5E00213F94 /* NutritionFacts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5869850F25CED6B300ADAD9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5869851325CED6B300ADAD9C /* Intents.framework in Frameworks */,
 				586985C125CEDA2000ADAD9C /* NutritionFacts in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		586985C325CEDA4D00ADAD9C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				586985C725CEDA4D00ADAD9C /* Intents.framework in Frameworks */,
-				586985F325CEDA6F00ADAD9C /* NutritionFacts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,12 +512,13 @@
 			path = LICENSE;
 			sourceTree = "<group>";
 		};
-		584C180625CE818100349162 /* macOSIntent */ = {
+		581D77D225CEDD5100213F94 /* macOSNewIntent */ = {
 			isa = PBXGroup;
 			children = (
-				584C180925CE818100349162 /* Info.plist */,
+				581D788525CEE07900213F94 /* macOSNewIntent.entitlements */,
+				581D77D525CEDD5100213F94 /* Info.plist */,
 			);
-			path = macOSIntent;
+			path = macOSNewIntent;
 			sourceTree = "<group>";
 		};
 		5869851425CED6B300ADAD9C /* iOSIntents */ = {
@@ -529,15 +528,6 @@
 				5869851725CED6B300ADAD9C /* Info.plist */,
 			);
 			path = iOSIntents;
-			sourceTree = "<group>";
-		};
-		586985C825CEDA4D00ADAD9C /* macOSIntent */ = {
-			isa = PBXGroup;
-			children = (
-				586985C925CEDA4D00ADAD9C /* IntentHandler.swift */,
-				586985CB25CEDA4D00ADAD9C /* Info.plist */,
-			);
-			path = macOSIntent;
 			sourceTree = "<group>";
 		};
 		61F36D992496F3EF00E7AA4D /* Playgrounds */ = {
@@ -576,9 +566,8 @@
 				E0D713D22496844400173A38 /* macOS Widgets */,
 				E030D9842496968300D2E087 /* Packages */,
 				61F36D992496F3EF00E7AA4D /* Playgrounds */,
-				584C180625CE818100349162 /* macOSIntent */,
 				5869851425CED6B300ADAD9C /* iOSIntents */,
-				586985C825CEDA4D00ADAD9C /* macOSIntent */,
+				581D77D225CEDD5100213F94 /* macOSNewIntent */,
 				E0D713A4249683BA00173A38 /* Frameworks */,
 				E0D712A524967CC900173A38 /* Products */,
 				CC6C0F7AEF2D0CBC2E3EEFD6 /* Configuration */,
@@ -613,7 +602,7 @@
 				E0D713A3249683BA00173A38 /* Fruta iOS Widgets.appex */,
 				E0D713CF2496844400173A38 /* Fruta macOS Widgets.appex */,
 				5869851225CED6B300ADAD9C /* iOSIntents.appex */,
-				586985C625CEDA4D00ADAD9C /* macOSIntent.appex */,
+				581D77D125CEDD5100213F94 /* macOSNewIntent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -790,6 +779,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		581D77D025CEDD5100213F94 /* macOSNewIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581D77DB25CEDD5100213F94 /* Build configuration list for PBXNativeTarget "macOSNewIntent" */;
+			buildPhases = (
+				581D77CD25CEDD5100213F94 /* Sources */,
+				581D77CE25CEDD5100213F94 /* Frameworks */,
+				581D77CF25CEDD5100213F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOSNewIntent;
+			packageProductDependencies = (
+				581D786725CEDF5E00213F94 /* NutritionFacts */,
+			);
+			productName = macOSNewIntent;
+			productReference = 581D77D125CEDD5100213F94 /* macOSNewIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		5869851125CED6B300ADAD9C /* iOSIntents */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5869851B25CED6B300ADAD9C /* Build configuration list for PBXNativeTarget "iOSIntents" */;
@@ -808,26 +817,6 @@
 			);
 			productName = iOSIntents;
 			productReference = 5869851225CED6B300ADAD9C /* iOSIntents.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		586985C525CEDA4D00ADAD9C /* macOSIntent */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 586985CF25CEDA4D00ADAD9C /* Build configuration list for PBXNativeTarget "macOSIntent" */;
-			buildPhases = (
-				586985C225CEDA4D00ADAD9C /* Sources */,
-				586985C325CEDA4D00ADAD9C /* Frameworks */,
-				586985C425CEDA4D00ADAD9C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = macOSIntent;
-			packageProductDependencies = (
-				586985F225CEDA6F00ADAD9C /* NutritionFacts */,
-			);
-			productName = macOSIntent;
-			productReference = 586985C625CEDA4D00ADAD9C /* macOSIntent.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		E0D712A324967CC900173A38 /* Fruta iOS */ = {
@@ -869,7 +858,7 @@
 			dependencies = (
 				E0FED4492496AB76005D3995 /* PBXTargetDependency */,
 				E0D713DA2496844600173A38 /* PBXTargetDependency */,
-				586985CD25CEDA4D00ADAD9C /* PBXTargetDependency */,
+				581D77D725CEDD5100213F94 /* PBXTargetDependency */,
 			);
 			name = "Fruta macOS";
 			packageProductDependencies = (
@@ -950,10 +939,10 @@
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					5869851125CED6B300ADAD9C = {
+					581D77D025CEDD5100213F94 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					586985C525CEDA4D00ADAD9C = {
+					5869851125CED6B300ADAD9C = {
 						CreatedOnToolsVersion = 12.4;
 					};
 					E0D712A324967CC900173A38 = {
@@ -994,20 +983,20 @@
 				E0D713A2249683BA00173A38 /* Fruta iOS Widgets */,
 				E0D713CE2496844400173A38 /* Fruta macOS Widgets */,
 				5869851125CED6B300ADAD9C /* iOSIntents */,
-				586985C525CEDA4D00ADAD9C /* macOSIntent */,
+				581D77D025CEDD5100213F94 /* macOSNewIntent */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5869851025CED6B300ADAD9C /* Resources */ = {
+		581D77CF25CEDD5100213F94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		586985C425CEDA4D00ADAD9C /* Resources */ = {
+		5869851025CED6B300ADAD9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1057,6 +1046,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		581D77CD25CEDD5100213F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581D785E25CEDF3200213F94 /* Ingredient+NutritionFacts.swift in Sources */,
+				581D783125CEDEFD00213F94 /* IntentHandler.swift in Sources */,
+				581D783A25CEDF0600213F94 /* Smoothie.swift in Sources */,
+				581D785525CEDF2400213F94 /* Ingredient+SwiftUI.swift in Sources */,
+				581D784C25CEDF0F00213F94 /* Ingredient.swift in Sources */,
+				581D784325CEDF0A00213F94 /* MeasuredIngredient.swift in Sources */,
+				581D782825CEDEFA00213F94 /* FrutaIntents.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5869850E25CED6B300ADAD9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1068,19 +1071,6 @@
 				586985A525CED9F900ADAD9C /* Ingredient.swift in Sources */,
 				5869859E25CED9F600ADAD9C /* MeasuredIngredient.swift in Sources */,
 				5869853A25CED6CB00ADAD9C /* FrutaIntents.intentdefinition in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		586985C225CEDA4D00ADAD9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				586985E225CEDA5F00ADAD9C /* Ingredient.swift in Sources */,
-				586985D925CEDA5900ADAD9C /* MeasuredIngredient.swift in Sources */,
-				586985CA25CEDA4D00ADAD9C /* IntentHandler.swift in Sources */,
-				586985FB25CEDAC300ADAD9C /* Ingredient+NutritionFacts.swift in Sources */,
-				586985EA25CEDA6700ADAD9C /* Smoothie.swift in Sources */,
-				586985DA25CEDA5C00ADAD9C /* Ingredient+SwiftUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1351,15 +1341,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		581D77D725CEDD5100213F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581D77D025CEDD5100213F94 /* macOSNewIntent */;
+			targetProxy = 581D77D625CEDD5100213F94 /* PBXContainerItemProxy */;
+		};
 		5869851925CED6B300ADAD9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5869851125CED6B300ADAD9C /* iOSIntents */;
 			targetProxy = 5869851825CED6B300ADAD9C /* PBXContainerItemProxy */;
-		};
-		586985CD25CEDA4D00ADAD9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 586985C525CEDA4D00ADAD9C /* macOSIntent */;
-			targetProxy = 586985CC25CEDA4D00ADAD9C /* PBXContainerItemProxy */;
 		};
 		E0D712E12496805E00173A38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1382,6 +1372,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		581D77D925CEDD5100213F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = macOSNewIntent/macOSNewIntent.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VN6ZUNFSM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = macOSNewIntent/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.fruta6VN6ZUNFSM.macOSNewIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		581D77DA25CEDD5100213F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = macOSNewIntent/macOSNewIntent.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VN6ZUNFSM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = macOSNewIntent/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.fruta6VN6ZUNFSM.macOSNewIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		5869851C25CED6B300ADAD9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1428,50 +1450,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		586985D025CEDA4D00ADAD9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6VN6ZUNFSM;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = macOSIntent/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.fruta6VN6ZUNFSM.macOSIntent";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		586985D125CEDA4D00ADAD9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6VN6ZUNFSM;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = macOSIntent/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.fruta6VN6ZUNFSM.macOSIntent";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1868,20 +1846,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		581D77DB25CEDD5100213F94 /* Build configuration list for PBXNativeTarget "macOSNewIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581D77D925CEDD5100213F94 /* Debug */,
+				581D77DA25CEDD5100213F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5869851B25CED6B300ADAD9C /* Build configuration list for PBXNativeTarget "iOSIntents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5869851C25CED6B300ADAD9C /* Debug */,
 				5869851D25CED6B300ADAD9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		586985CF25CEDA4D00ADAD9C /* Build configuration list for PBXNativeTarget "macOSIntent" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				586985D025CEDA4D00ADAD9C /* Debug */,
-				586985D125CEDA4D00ADAD9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1943,11 +1921,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		586985C025CEDA2000ADAD9C /* NutritionFacts */ = {
+		581D786725CEDF5E00213F94 /* NutritionFacts */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NutritionFacts;
 		};
-		586985F225CEDA6F00ADAD9C /* NutritionFacts */ = {
+		586985C025CEDA2000ADAD9C /* NutritionFacts */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NutritionFacts;
 		};
